@@ -1,0 +1,35 @@
+.logs-display{
+   display: flex;
+   flex-direction: column;
+   gap: .5em;
+}
+.log-card{
+   border:1px solid #e0e0e0;
+   border-radius: 8px;
+   padding: 1em;
+   background: #fff;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: .4em;
+}
+.log-card p{
+    align-self: center; 
+}
+.log-card small{
+    align-self: flex-start;
+    text-transform:capitalize;
+    font-weight: bold;
+    color: black;
+}
+.log-card__tab{
+   align-self:flex-end;
+}
+.complete-link{
+   text-decoration: none;
+   color: var(--light-blue);
+   align-self: flex-start;
+}
+.complete-link:hover{
+   text-decoration: underline;
+}

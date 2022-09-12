@@ -1,0 +1,54 @@
+.homepage{
+    padding: 1em;
+}
+  /* form */
+.homepage .form-wrapper {
+  max-width: 400px;
+}
+ #form{
+  background: #fff;
+    display:grid;
+    grid-template-columns: 6fr 1fr;
+    gap: .3em;
+    border-radius: 8px;
+    padding: .5em;
+    box-shadow: 0 0 2px rgb(153, 153, 153);
+    transition: 1s;
+ }
+ 
+ #issue{
+   outline: none;
+   transition: .2s;
+   padding-left: 1em;
+   border-radius: 8px;
+   border:1px solid #d3d3d3;
+   cursor: pointer;
+  }
+
+  #issue::placeholder{
+    font-size: 1rem;
+ }
+ #issue:focus
+ {
+  border:1px solid var(--primary-color);
+ }
+
+ .log-content{
+   display: flex;
+   justify-content: space-between;
+   width: 1000px;
+   margin: 2em auto 1em auto;
+   gap: 1em;
+  }
+  
+  .log-list-container{
+    background: rgb(235, 235, 235);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgb(218, 218, 218);
+    padding: 1em .4em;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  

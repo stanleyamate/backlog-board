@@ -1,0 +1,28 @@
+.btn{
+    outline: none;
+    border: none;
+    padding: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #c7c7c7;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: var(--light-gray);
+    transition: ease .2s;
+    cursor: pointer;
+}
+.btn--light:hover{
+    background: var(--light-blue);
+    color: #fff;
+}
+.btn--dark{
+    color: #fff;
+    background: var(--light-blue);
+}
+.btn--dark:hover{
+    background: var(--secondary-color);
+    color: #fff;
+}
